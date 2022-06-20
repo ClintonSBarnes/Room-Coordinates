@@ -39,12 +39,7 @@
 
         Console.WriteLine($"{coordinates[i].GetX(coordinates[i])}, {coordinates[i].GetY(coordinates[i])}, {adjacent}");
     }
-
-
 }
-
-
-
 
 public struct Coordinates
 {
@@ -75,7 +70,6 @@ public struct Coordinates
         else return holder;
     }
 
-
     public double GetX(Coordinates coord)
     {
         return coord.X;
@@ -86,9 +80,4 @@ public struct Coordinates
     {
         return coord.Y;
     }
-
-
-
-
-
 }
